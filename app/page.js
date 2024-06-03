@@ -1,45 +1,13 @@
+import React  from "react";
+import Link from "next/link";
 
+export default function Home() {
+  const linkStyles="underline text-blue-600 hover:text-darkblue-800"
 
-
-
-import Link from 'next/link';
-const Page = () => {
-  
-  return (
-    <div style={styles.container}>
-      <h1 className='text-4xl'>CPRG 306: Web Development 2 - Assignments</h1>
-      
-      
-      <Link href="/week-2" > 
-        
-          Week 2 Assignment
-d
-            
-      </Link>
-    </div>
-    
+  return(
+    <main className="h-screen">
+      <h1 className="text-x1">CPRG 306: Web Development-2 - Assignment </h1>
+      <Link className={linkStyles} href="./week-2"> Week2 Assignment </Link>
+    </main>
   );
 }
-const styles = {
-  container: {
-    fontSize: '1em',
-    textAlign: 'center',
-    backgroundColor: 'black',
-    color: 'white',
-    height: '100vh',
-    padding: '50px',
-   
-    
-    
-  
-
-  },
- 
-header: {
- padding: '20px',
-},
-
-
-};
-
-s

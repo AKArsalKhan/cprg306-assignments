@@ -1,28 +1,11 @@
 import StudentInfo from "./student-info";
 
 
-
-  
-
-  const Page = () => {
-    return (
-      <div style={styles.container}>
-        <h1 style={styles.header}>Shopping List</h1>
-        <StudentInfo />
-        
-      </div>
+export default function Page() {
+    return(
+        <main className="h-screen">
+            <h1 className="text-x1">Shopping List </h1>
+            <StudentInfo />
+        </main>
     );
-  }
-
-
-  const styles = {
-
-    container: {
-      textAlign: 'left',
-      backgroundColor: 'black',
-      color: 'white',
-      height: '100vh',
-    },
-  }
-
-  export default Page;
+}
