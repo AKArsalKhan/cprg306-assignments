@@ -8,4 +8,4 @@ export default function StudentInfo() {
             <Link href= "https://github.com/AKArsalKhan/cprg306-assignments">GitHub Link </Link>
         </main>
     );
-}
+};

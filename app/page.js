@@ -3,12 +3,13 @@ import Link from "next/link";
 
 
 export default function Home() {
-  const linkStyles="underline text-blue-600 hover:text grey-800 "
+  const linkStyles="  text-white  hover:underline hover:text-green-500 text-"
 
   return(
-    <main className="h-screen ">
-      <h1 className="text-x1 font-bold ">CPRG 306: Web Development-2 - Assignment </h1>
-
+    <main className="h-screen bg-black flex flex-col justify-center  ">
+      <h1 className=" font-bold text-4xl text-white mb-6     ">CPRG 306: Web Development- 2- Assignments </h1>
+      
+      <div className="space-y-2  ">
       <div>
 
       <Link className={linkStyles} href="./week-2 " > Week 2 Assignment  </Link>
@@ -38,7 +39,7 @@ export default function Home() {
 
       </div>
 
-
+      </div>
 
 
 
