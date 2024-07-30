@@ -1,4 +1,4 @@
-"use client"; // Ensure this directive is at the top
+"use client"; 
 
 import React, { useEffect } from 'react';
 import { useUserAuth } from './_utils/auth-context';
